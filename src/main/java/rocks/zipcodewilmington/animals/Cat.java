@@ -10,9 +10,14 @@ public class Cat extends Mammal {
         super(name, birthDate, id);
     }
 
+    public Cat(Integer id) {
+        super(id);
+    }
+
     public Cat() {
         this(null, null, 1);
     }
+
 
     public String speak() {
         return "meow!";

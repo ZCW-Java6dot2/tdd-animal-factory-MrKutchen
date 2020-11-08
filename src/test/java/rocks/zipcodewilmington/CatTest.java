@@ -128,4 +128,22 @@ public class CatTest {
         Assert.assertEquals(givenId, retrievedId);
     }
 
+    @Test
+    public void idTest() {
+        Integer givenId = 1;
+
+        Cat cat = new Cat(givenId);
+        Integer retrievedId = cat.getId();
+        Assert.assertEquals(givenId, retrievedId);
+
+    }
+
+    @Test
+    public void test() {
+        Cat cat = new Cat();
+        cat.setId(10);
+
+        Cat catId = new Cat(10);
+    }
+
 }
