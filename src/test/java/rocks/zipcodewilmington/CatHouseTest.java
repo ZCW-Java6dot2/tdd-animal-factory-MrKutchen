@@ -77,9 +77,5 @@ public class CatHouseTest {
 
         // then
         Assert.assertEquals(expected, actual);
-
-
-
-
     }
 }
